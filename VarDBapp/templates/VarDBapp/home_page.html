@@ -1,10 +1,27 @@
+{% load static %}
 <html>
     <head>
         <title>VarDB</title>
-        <h1>VarDB</h1>
-        <h4>Variant Database</h4>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type='text/css' href="{% static 'css/VarDBapp.css' %}">
     </head>
     <body>
-        <p>working?</p>
+        <div class="page-header">
+            <h1><a href="/">VarDB</a></h1>
+            <h3>Variant Database</h3>
+            <a href="'url to log in'" class="top=menu"><span class="glyphicon glyphicon-log-in"></span></a>
+        </div>
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Browse Variant  <a href="url 'browse_variant'"><span class="glyphicon glyphicon-search"></span></span></a></h3>
+                    <h3>Upload Variants   <a href="search_variant url"><span class="glyphicon glyphicon-upload"></span></span></a></h3>
+
+                </div>
+            </div>
+
+        </div>
     </body>
 </html>
