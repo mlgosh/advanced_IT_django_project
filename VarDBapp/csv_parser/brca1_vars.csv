@@ -1,0 +1,101 @@
+Name,Age,SampleID,Proband,Affected Relatives,Stage,Description,Sequencer,Variant cDNA,Variant Protein,Variant Genome,Genome Assembly,Transcript,Gene name,Pathogenicity Code,Evidence Codes
+ Pearl Dixon,49,2021_1,Y,Y,2, Mucinous,HiSeq,c.303T>G,p.(Tyr101*),g.41256277A>C,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Betty Schmidt,40,2021_2,,,3, Mixed_type,HiSeq,c.314A>G,"p.(Tyr105Cys), p.Tyr105Cys",g.41256266T>C,GRCh37,NM_007294.3,BRCA1,4,"PS1,PM1,PM2,PP1"
+ Connie Fields,48,2021_3,Y,Y,1, Tubular,HiSeq,c.321del,p.(Phe107Leufs*12),g.41256259del,GRCh37,NM_007294.3,BRCA1,4,"PS1,PM1,PM2,PP1"
+ Rosemarie Simpson,43,2021_4,Y,Y,2, Tubular,MiSeq,c.329dup,p.(Glu111Glyfs*3),g.41256251dup,GRCh37,NM_007294.3,BRCA1,4,"PS2,PS3,PM6,PM4"
+ Veronica Delgado,61,2021_5,Y,Y,1, Mixed_type,HiSeq,c.370A>G,p.Ile124Val,g.41256210T>C,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Melinda Roberts,37,2021_6,Y,Y,3, Invasive_lobular,HiSeq,c.380G>A,p.Ser127Asn,g.41256200C>T,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Annette Dawson,42,2021_7,Y,Y,1, Mixed_type,HiSeq,c.390C>G,p.(Tyr130*),g.41256190G>C,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Brandi Reeves,69,2021_8,Y,Y,1, Invasive_lobular,HiSeq,c.396C>A,"p.(Asn132Lys), p.Asn132Lys",g.41256184G>T,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Olive Johnson,35,2021_9,Y,Y,1, Medullary,MiSeq,c.593+8A>G,?,g.41249253T>C,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Eunice Potter,54,2021_10,Y,Y,1, Tubular,MiSeq,c.593+16C>G,p.(=),g.41249245G>C,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Alison Higgins,31,2021_11,Y,Y,1, Invasive_ductal,HiSeq,c.593+25A>T,p.?,g.41249236T>A,GRCh37,NM_007294.3,BRCA1,4,"PS1,PS2,PM1,PM4"
+ Myra Meyer,28,2021_12,N,Y,1, Papillary,HiSeq,c.593+77T>C,p.?,g.41249184A>G,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Terri Hill,63,2021_13,N,,2, Other,HiSeq,c.594-225G>A,p.(=),g.41248164C>T,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Mandy Tyler,66,2021_14,N,,3, Medullary,HiSeq,c.594-203_670+515del,p.?,g.41247348_41248142del,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Kayla Andrews,62,2021_15,N,,1, Papillary,HiSeq,c.594-60 del,p.(=),g.41247999del,GRCh37,NM_007294.3,BRCA1,4,"PS1,PS2,PM1,PM4"
+ Kimberly Massey,30,2021_16,N,,3, Mixed_type,HiSeq,c.594-34T>C,"p.?, p.(=)",g.41247973A>G,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Kellie Pearson,56,2021_17,N,,1, Mucinous,HiSeq,c.594-15G>C,NA,g.41247954C>G,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Dana Zimmerman,55,2021_18,Y,N,3, Papillary,HiSeq,c.594-2A>C,"p.?, ?",g.41247941T>G,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Teri Mann,41,2021_19,Y,N,2, Invasive_lobular,MiSeq,c.594-2A>G,p.?,g.41247941T>C,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Emma Ramsey,34,2021_20,Y,N,2, Other,MiSeq,c.594_597del,"p.(Ser198Argfs*35), p.?",g.41247936_41247939del,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Vivian Hunt,58,2021_21,Y,N,1, Medullary,MiSeq,c.595G>A,p.(Val199Met),g.41247938C>T,GRCh37,NM_007294.3,BRCA1,4,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Myrtle Fletcher,59,2021_22,Y,Y,3, Invasive_ductal,HiSeq,c.612G>C,p.Leu204Phe,g.41247921C>G,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Eloise Black,39,2021_23,Y,Y,2, Papillary,HiSeq,c.616C>T,p.(Gln206*),g.41247917G>A,GRCh37,NM_007294.3,BRCA1,4,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Holly Fernandez,25,2021_24,Y,Y,3, Medullary,HiSeq,c.637A>G,p.Arg213Gly,g.41247896T>C,GRCh37,NM_007294.3,BRCA1,4,
+ Doris Cole,27,2021_25,Y,Y,3, Invasive_lobular,MiSeq,c.639G>A,p.(=),g.41247894C>T,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Genevieve Nguyen,47,2021_26,Y,Y,1, Mucinous,HiSeq,c.641A>G,p.(Asp214Gly),g.41247892T>C,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Harriet Crawford,52,2021_27,Y,Y,3, Invasive_ductal,HiSeq,c.652T>C,p.(=),g.41247881A>G,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Johanna Burke,65,2021_28,Y,Y,1, Mucinous,HiSeq,c.661G>T,p.Ala221Ser,g.41247872C>A,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Bonnie Pena,36,2021_29,Y,Y,3, Other,HiSeq,c.669G>A,p.(=),g.41247864C>T,GRCh37,NM_007294.3,BRCA1,4,
+ Lorraine Wise,68,2021_30,Y,,3, Other,MiSeq,c.670G>C,"p.?, p.(Ala224Pro)",g.41247863C>G,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Shawna Arnold,26,2021_31,,,2, Invasive_ductal,MiSeq,c.670+1delG,?,g.41247862delC,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Nettie Rose,45,2021_32,N,,3, Tubular,HiSeq,c.670+1G>T,p.?,g.41247862C>A,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Darla Sullivan,53,2021_33,N,,3, Mucinous,HiSeq,c.670+7G>A,?,g.41247856C>T,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Carolyn Colon,38,2021_34,Y,N,3, Invasive_ductal,HiSeq,c.670+8C>A,p.?,g.41247855G>T,GRCh37,NM_007294.3,BRCA1,5,
+ Irene James,57,2021_35,Y,N,3, Other,HiSeq,c.670+8C>T,"p.?, p.=, ?, NA",g.41247855G>A,GRCh37,NM_007294.3,BRCA1,4,
+ Molly Copeland,67,2021_36,Y,N,3, Mixed_type,HiSeq,c.1881_1882insCC,p.(Ser628Profs*5),g.41245666_41245667insGG,GRCh37,NM_007294.3,BRCA1,3,"PS2,PS3,PM6,PM4"
+ Joanna White,51,2021_37,Y,N,2, Papillary,HiSeq,c.1884T>G,p.Ser628Arg,g.41245664A>C,GRCh37,NM_007294.3,BRCA1,3,
+ Megan Greene,32,2021_38,Y,N,1, Invasive_ductal,HiSeq,c.1892dup,p.(Ser632Lysfs*4),g.41245656dup,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Marie Brady,70,2021_39,Y,N,3, Invasive_lobular,HiSeq,c.1895G>A,p.Ser632Asn,g.41245653C>T,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Renee Duncan,60,2021_40,Y,N,1, Papillary,MiSeq,c.3816C>A,p.(Asn1272Lys),g.41243732G>T,GRCh37,NM_007294.3,BRCA1,4,"PS4,PP1,PM1,PP6"
+ Sherri Castillo,50,2021_41,Y,N,2, Medullary,MiSeq,c.3820dup,p.(Val1274Glyfs*13),g.41243728dup,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Jill Hodges,44,2021_42,Y,N,2, Tubular,MiSeq,c.3820dupG,p.(Val1274fs),g.41243728dup,GRCh37,NM_007294.3,BRCA1,5,
+ Amy Rodgers,33,2021_43,Y,N,3, Papillary,HiSeq,c.3823A>G,"p.(Ile1275Val), p.Ile1275Val",g.41243725T>C,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM4"
+ Jo Curtis,29,2021_44,Y,N,2, Mixed_type,HiSeq,c.3835G>A,p.(Ala1279Thr),g.41243713C>T,GRCh37,NM_007294.3,BRCA1,5,"PS2,PS3,PM6,PM5"
+ Rachael Davis,46,2021_45,Y,,3, Tubular,HiSeq,c.3839_3840inv,p.(Ser1280*),g.41243708_41243709inv,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Eleanor Lee,64,2021_46,,,3, Medullary,MiSeq,c.3839_3843delinsAGGC,p.(Ser1280*),g.41243705_41243709delinsGCCT,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Amber Cummings,63,2021_47,,,3, Papillary,HiSeq,c.3841C>T,p.(Gln1281*),g.41243707G>A,GRCh37,NM_007294.3,BRCA1,3,
+ Teresa Fuller,32,2021_48,Y,Y,3, Other,HiSeq,c.3845A>T,p.(Glu1282Val),g.41243703T>A,GRCh37,NM_007294.3,BRCA1,4,"PS4,PP1,PM1,PP6"
+ Jana Daniels,41,2021_49,Y,Y,2, Other,HiSeq,c.3851A>G,p.His1284Arg,g.41243697T>C,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Jackie Byrd,48,2021_50,Y,Y,2, Mucinous,HiSeq,c.3858_3861del,p.(Ser1286Argfs*20),g.41243687_41243690del,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Jacqueline Hanson,55,2021_51,Y,Y,1, Tubular,MiSeq,c.3869_3870del,p.(Lys1290Metfs*4),g.41243678_41243679del,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Monica Fowler,65,2021_52,Y,Y,1, Mixed_type,MiSeq,c.3878C>T,p.Ala1293Val,g.41243670G>A,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Bethany Spencer,62,2021_53,Y,Y,1, Invasive_ductal,HiSeq,c.3889delT,p.(fs),g.41243659delA,GRCh37,NM_007294.3,BRCA1,4,"PS1,PS2,PM1,PM4"
+ Belinda Hall,34,2021_54,Y,Y,1, Tubular,HiSeq,c.3891_3893del,"p.(Ser1298del), p.(Ser1297del)",g.41243655_41243657del,GRCh37,NM_007294.3,BRCA1,5,"PS1,PM1,PM2,PP1"
+ Claire Cox,26,2021_55,Y,Y,2, Invasive_lobular,HiSeq,c.3903T>A,"p.(Ser1301Arg), p.(Ser1340Arg)",g.41243645A>T,GRCh37,NM_007294.3,BRCA1,5,"PS1,PM1,PM2,PP1"
+ Janie Hamilton,43,2021_56,Y,N,2, Mucinous,HiSeq,c.3904G>T,p.(Glu1302*),g.41243644C>A,GRCh37,NM_007294.3,BRCA1,5,
+ Jennifer Steele,31,2021_57,Y,N,2, Medullary,HiSeq,c.3910G>T,p.(Glu1304*),g.41243638C>A,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Hilda Morris,52,2021_58,Y,N,2, Mixed_type,HiSeq,c.3914A>T,p.(Asp1305Val),g.41243634T>A,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PS3,PM4,PM5,PM6,PP1"
+ Bernadette Harvey,25,2021_59,Y,N,2, Mucinous,HiSeq,c.3916_3917del,p.(Leu1306Aspfs*23),g.41243631_41243632del,GRCh37,NM_007294.3,BRCA1,5,
+ Velma Dean,27,2021_60,Y,N,1, Invasive_lobular,HiSeq,c.3918G>A,p.=,g.41243630C>T,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Carol Carson,61,2021_61,Y,N,2, Other,MiSeq,c.3918G>T,p.(Leu1306Phe),g.41243630C>A,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Faye Kelley,30,2021_62,Y,N,2, Medullary,MiSeq,c.3929C>A,p.Thr1310Lys,g.41243619G>T,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Kendra Chapman,69,2021_63,Y,N,1, Invasive_lobular,MiSeq,c.3931_3934del,"p.(Asn1311Profs*6), p.(Asn1311fs)",g.41243614_41243617del,GRCh37,NM_007294.3,BRCA1,5,
+ Elizabeth Paul,39,2021_64,Y,N,1, Invasive_ductal,HiSeq,c.3959C>G,p.(Ser1320Cys),g.41243589G>C,GRCh37,NM_007294.3,BRCA1,5,
+ Margie Neal,64,2021_65,Y,N,3, Invasive_lobular,HiSeq,c.3973del,p.(Arg1325Glyfs*11),g.41243575del,GRCh37,NM_007294.3,BRCA1,5,
+ Krystal Gill,60,2021_66,Y,N,2, Mucinous,HiSeq,c.3994G>A,p.(Gly1332*),g.41243554C>T,GRCh37,NM_007294.3,BRCA1,4,
+ Marta Young,37,2021_67,Y,N,2, Papillary,MiSeq,c.4002T>C,p.(=),g.41243546A>G,GRCh37,NM_007294.3,BRCA1,4,
+ Sonya Barker,49,2021_68,Y,Y,3, Mixed_type,HiSeq,c.4013del,p.(Lys1338fs),g.41243535del,GRCh37,NM_007294.3,BRCA1,4,
+ Miranda Hughes,59,2021_69,Y,Y,3, Invasive_ductal,HiSeq,c.4015dup,p.(Glu1339Glyfs*6),g.41243533dup,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Candace Ortiz,53,2021_70,Y,Y,1, Papillary,HiSeq,c.4015dupG,p.(Glu1339fs),g.41243533dup,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Mercedes Keller,35,2021_71,Y,Y,1, Invasive_ductal,HiSeq,c.4015G>A,p.(Glu1339Lys),g.41243533C>T,GRCh37,NM_007294.3,BRCA1,5,"PS1,PM1,PM2,PP1"
+ Nicole Valdez,70,2021_72,Y,Y,3, Tubular,MiSeq,c.4025C>T,p.(Ser1342Leu),g.41243523G>A,GRCh37,NM_007294.3,BRCA1,5,"PS1,PM1,PM2,PP1"
+ Ella Munoz,36,2021_73,Y,N,2, Tubular,MiSeq,c.4026A>C,p.(=),g.41243522T>G,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Carrie Fitzgerald,38,2021_74,,,1, Mucinous,HiSeq,c.4035del,"p.(Glu1346Lysfs*20), p.(Glu1346fs)",g.41243513del,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Ashley Maxwell,54,2021_75,N,Y,2, Medullary,HiSeq,c.4036G>A,"p.Glu1346Lys, p.(Glu1346Lys)",g.41243512C>T,GRCh37,NM_007294.3,BRCA1,4,"PS1,PS2,PM1,PM4"
+ Shannon Simmons,58,2021_76,N,Y,1, Mucinous,HiSeq,c.4039A>G,"p.(Arg1347Gly), p.Arg1347Gly",g.41243509T>C,GRCh37,NM_007294.3,BRCA1,5,"PS1,PM1,PM2,PP1"
+ Emily Hardy,40,2021_77,,,1, Invasive_lobular,HiSeq,c.4045A>C,p.Thr1349Pro,g.41243503T>G,GRCh37,NM_007294.3,BRCA1,3,"PS1,PM1,PM2,PP1"
+ Jean Fox,47,2021_78,,,3, Mixed_type,HiSeq,c.4046C>G,p.Thr1349Arg,g.41243502G>C,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Gayle Webster,67,2021_79,,,3, Other,HiSeq,c.4046C>T,"p.(Thr1349Met), p.Thr1349Met",g.41243502G>A,GRCh37,NM_007294.3,BRCA1,4,"PS1,PS2,PM1,PM4"
+ Stacey Jenkins,57,2021_80,Y,N,3, Mucinous,HiSeq,c.4054G>A,p.(Glu1352Lys),g.41243494C>T,GRCh37,NM_007294.3,BRCA1,4,
+ Hannah Sparks,33,2021_81,Y,N,1, Mixed_type,HiSeq,c.4057G>T,p.(Glu1353*),g.41243491C>A,GRCh37,NM_007294.3,BRCA1,4,"PS1,PM1,PM2,PP1"
+ Stella Walsh,66,2021_82,Y,N,2, Invasive_ductal,MiSeq,c.4065_4068del,"p.(Asn1355LysfsTer10), p.(Asn1355Lysfs*10), p.Asn1355fs, p.(Asn1355fs)",g.41243480_41243483del,GRCh37,NM_007294.3,BRCA1,3,"PS4,PP1,PM1,PP6"
+ Mona Farmer,42,2021_83,Y,N,3, Medullary,MiSeq,c.4081A>C,p.Met1361Leu,g.41243467T>G,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Lana Harris,51,2021_84,Y,N,2, Papillary,MiSeq,c.4088C>G,p.(Ser1363*),g.41243460G>C,GRCh37,NM_007294.3,BRCA1,5,
+ Angie Jones,46,2021_85,Y,N,3, Tubular,MiSeq,c.4096G>A,p.(Gly1366Ser),g.41243452C>T,GRCh37,NM_007294.3,BRCA1,5,"PS1,PM1,PM2,PP1"
+ Ann Woods,28,2021_86,Y,N,2, Invasive_lobular,MiSeq,c.4096+1G>A,?,g.41243451C>T,GRCh37,NM_007294.3,BRCA1,3,
+ Shelia Stephens,44,2021_87,Y,N,1, Other,MiSeq,c.4096+3A>T,p.?,g.41243449T>A,GRCh37,NM_007294.3,BRCA1,5,"PS1,PM1,PM2,PP1"
+ Claudia Payne,56,2021_88,Y,N,1, Medullary,MiSeq,c.4096+6G>A,p.?,g.41243446C>T,GRCh37,NM_007294.3,BRCA1,5,
+ Natalie Knight,50,2021_89,Y,N,3, Medullary,MiSeq,c.4096+27C>T,p.?,g.41243425G>A,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Laverne Anderson,29,2021_90,Y,N,1, Other,MiSeq,c.4096+162delA,p.?,g.41243290delT,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Elvira Lane,45,2021_91,,,2, Mixed_type,HiSeq,c.4097-141A>C,p.(=),g.41243190T>G,GRCh37,NM_007294.3,BRCA1,3,"PS4,PP1,PM1,PP6"
+ Felicia Griffith,68,2021_92,N,,2, Tubular,HiSeq,c.4097-21C>T,p.?,g.41243070G>A,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Joann Reid,64,2021_93,N,,3, Invasive_ductal,HiSeq,c.548-9A>G,p.?,g.41249315T>C,GRCh37,NM_007294.3,BRCA1,3,
+ Faith Foster,55,2021_94,N,,2, Papillary,HiSeq,c.552T>C,p.=,g.41249302A>G,GRCh37,NM_007294.3,BRCA1,3,
+ Sophia Brooks,38,2021_95,N,Y,2, Invasive_lobular,HiSeq,c.556T>G,p.(Ser186Ala),g.41249298A>C,GRCh37,NM_007294.3,BRCA1,3,"PS1,PM1,PM2,PP1"
+ Toni Tran,41,2021_96,Y,Y,1, Other,HiSeq,c.557C>A,"p.(Ser186Tyr), p.Ser186Tyr",g.41249297G>T,GRCh37,NM_007294.3,BRCA1,5,
+ Lauren Harrison,26,2021_97,Y,Y,2, Tubular,HiSeq,c.(-20+1_-19-1)_(*1383_?)del,p.?,g.(?_41196312)_(41276133_41277287)del,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Lorene Reynolds,49,2021_98,Y,Y,3, Invasive_lobular,HiSeq,c.-20+11C>T,p.?,g.41277277G>A,GRCh37,NM_007294.3,BRCA1,5,"PS1,PS2,PM1,PM4"
+ Mindy Tucker,40,2021_99,Y,Y,1, Other,MiSeq,c.-20+101C>G,p.(=),g.41277187G>C,GRCh37,NM_007294.3,BRCA1,5,"PS4,PP1,PM1,PP6"
+ Geneva Howard,65,2021_100,Y,Y,3, Mixed_type,HiSeq,c.-19-134T>C,p.(=),g.41276266A>G,GRCh37,NM_007294.3,BRCA1,4,"PS1,PM1,PM2,PP1"
