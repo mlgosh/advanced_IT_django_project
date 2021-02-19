@@ -6,6 +6,7 @@
     {% csrf_token %}
     <table>
     {{ Variant_description.as_table }}
+    {{ Variant_instance.as_table}}
     </table>
     <input type="submit" value="Submit">
   </form>
