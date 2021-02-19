@@ -1,6 +1,7 @@
 from django.db import models
 from django.conf import settings
 from django.utils import timezone
+from django.db import models
 
 # Create your models here.
 class Gene(models.Model):
@@ -25,7 +26,7 @@ class Genome(models.Model):
     ASSEMBLY_CHOICES = [('GRCh38', 'GRCh38'), ('GRCh37', 'GRCh37')]
     genome_build = models.CharField(ASSEMBLY_CHOICES, unique=True, max_length=6, primary_key=True)
     description = models.TextField(null=True, blank=True)
-    version = models.CharField(max_length=10)
+    version = models.CharField(max_length=20)
     source = models.URLField(max_length=100)
     date_created = models.DateTimeField(default=timezone.now)
 
@@ -43,11 +44,46 @@ class Variant_description(models.Model):
 
     # ADD FUNCTION TO VALIDATE THE cDNA, protein and genome NAMES
 
-    def __str__(self):
-        return self.variant_id
+    #def __str__(self):
+    #    return self.variant_id
 
 class Evidence(models.Model):
-    evidence_code = models.CharField(primary_key=True, max_length=4)
+    evidence_id = models.AutoField(primary_key=True)
+    ps4 = models.BooleanField(blank=True, null=True)
+    pm2 = models.BooleanField(blank=True, null=True)
+    ba1 = models.BooleanField(blank=True, null=True)
+    bs1 = models.BooleanField(blank=True, null=True)
+    bs2 = models.BooleanField(blank=True, null=True)
+    pvs1 = models.BooleanField(blank=True, null=True)
+    pp3 = models.BooleanField(blank=True, null=True)
+    bp4 = models.BooleanField(blank=True, null=True)
+    bp7 = models.BooleanField(blank=True, null=True)
+    ps1 = models.BooleanField(blank=True, null=True)
+    pm5 = models.BooleanField(blank=True, null=True)
+    pm4 = models.BooleanField(blank=True, null=True)
+    bp1 = models.BooleanField(blank=True, null=True)
+    bp3 = models.BooleanField(blank=True, null=True)
+    ps3 = models.BooleanField(blank=True, null=True)
+    pm1 = models.BooleanField(blank=True, null=True)
+    pp2 = models.BooleanField(blank=True, null=True)
+    bs3 = models.BooleanField(blank=True, null=True)
+    pp1 = models.BooleanField(blank=True, null=True)
+    bs4 = models.BooleanField(blank=True, null=True)
+    pm3 = models.BooleanField(blank=True, null=True)
+    bp2 = models.BooleanField(blank=True, null=True)
+    ps2 = models.BooleanField(blank=True, null=True)
+    pm6 = models.BooleanField(blank=True, null=True)
+    pp5 = models.BooleanField(blank=True, null=True)
+    bp6 = models.BooleanField(blank=True, null=True)
+    pp4 = models.BooleanField(blank=True, null=True)
+    bp5 = models.BooleanField(blank=True, null=True)
+
+    #def __str__(self):
+    #    return self.evidence_id
+
+
+class EvidenceDescription(models.Model):
+    evidence_code = models.CharField(max_length=4)
     description = models.TextField(null=True, blank=True)
     date_created = models.DateTimeField(default=timezone.now)
 
@@ -58,11 +94,11 @@ class Pathogenicity(models.Model):
     pathogenicity_id = models.AutoField(primary_key=True)
     CODE_CHOICES = [(1, 1), (2, 2), (3, 3), (4, 4), (5, 5)]
     pathogenicity_code = models.IntegerField(choices=CODE_CHOICES, unique=True)
-    evidence_code = models.ForeignKey(Evidence, on_delete=models.CASCADE)
+    evidence_list = models.ForeignKey(Evidence, on_delete=models.CASCADE)
     date_created = models.DateTimeField(default=timezone.now)
 
-    def __str__(self):
-        return self.pathogenicity_id
+    #def __str__(self):
+    #    return self.pathogenicity_id
 
 class Sequencer(models.Model):
     sequencer_id = models.AutoField(primary_key=True)
@@ -79,8 +115,8 @@ class Phenotype(models.Model):
     description = models.TextField(null=True, blank=True)
     stage = models.CharField(max_length=6)
 
-    def __str__(self):
-        return self.phenotype_id
+    #def __str__(self):
+    #    return self.phenotype_id
 
 class Patient(models.Model):
     patient_id = models.CharField(max_length=10)
@@ -98,4 +134,4 @@ class Variant_instance(models.Model):
     variant_id = models.ForeignKey(Variant_description, on_delete=models.CASCADE)
     pathogenicity_id = models.ForeignKey(Pathogenicity, on_delete=models.CASCADE)
     sequencer_id = models.ForeignKey(Sequencer, on_delete=models.CASCADE)
-    date_created = models.DateTimeField(timezone.now)
+    date_created = models.DateTimeField(default=timezone.now)
