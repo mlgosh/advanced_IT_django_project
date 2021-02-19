@@ -17,18 +17,14 @@ def file_upload(request):
 def single_upload(request):
         if request.method == 'POST': # If the form has been submitted
             Variant_description = Variant_description_form(request.POST)
-            Variant_instance = Variant_instance_form(request.POST)
-            if Variant_description.is_valid() and Variant_instance.is_valid(): # All validation rules pass
+            if Variant_description.is_valid(): # All validation rules pass
                     description = Variant_description.save()
-                    instance = Variant_instance.save()
-                    return HttpResponseRedirect('VarDBapp/home_page.html')
+                    return HttpResponseRedirect('Successful')
         else:
             Variant_description = Variant_description_form()
-            Variant_instance = Variant_instance_form()
         
         context = {
             'Variant_description': Variant_description,
-            'Variant_instance' : Variant_instance,
             }
 
         return render(request, 'VarDBapp/single_upload.html', context)
