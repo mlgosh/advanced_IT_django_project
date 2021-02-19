@@ -1,5 +1,161 @@
+<<<<<<< HEAD
 {% extends "VarDBapp/base.html" %}
 
 {% block content %}
 
 {% endblock %}
+=======
+{% load static %}
+<html>
+    <head>
+        <title>VarDB</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type='text/css' href="{% static 'css/VarDBapp.css' %}">
+    <style>
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #aca4db;
+    }
+
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none; 
+      outline: 2px solid #483D8B;
+      padding: 10px 14px;
+      transition: 0.3s;
+      font-size: 18px;
+      font-family: 'Lobster', cursive
+    }
+
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 16px;
+        }
+
+    </style>
+    </head>
+        <body>
+
+        <div class="page-header">
+            <h1><a href="/">VarDB</a></h1>
+            <h3>Variant Browser</h3>
+        </div>
+
+        <div class="content">
+            <div class="tab">
+              <button class="tablinks" onclick="clickHandle(event, 'Variant')">Variant</button>
+              <button class="tablinks" onclick="clickHandle(event, 'Sample')">Sample</button>
+              <button class="tablinks" onclick="clickHandle(event, 'History')">History</button>
+            </div>
+
+            <div id="Variant" class="tabcontent">
+                <table style="width:100%">
+                  <tr>
+                    <th>Variant ID</th>
+                    <th>Gene</th>
+                    <th>Transcript</th>
+                    <th>Genome Build</th>
+                    <th>Variant cDNA</th>
+                    <th>Variant Protein</th>
+                    <th>Variant gDNA</th>
+                    <th>Edit</th>
+                  </tr>
+                  <tr>
+                    <td>Variant ID link</td>
+                    <td>Gene link</td>
+                    <td>Transcript link</td>
+                    <td>Genome build link</td>
+                    <td>cDNA link</td>
+                    <td>Protein link</td>
+                    <td>gDNA link</td>
+                    <td><a href='edit_variant'><span class="glyphicon glyphicon-pencil"></span></span></a></td>
+                  </tr>
+                </table>
+            </div>
+
+            <div id="Sample" class="tabcontent">
+                <table style="width:100%">
+                  <tr>
+                    <th>Sample ID</th>
+                    <th>Age</th>
+                    <th>Proband</th>
+                    <th>Affected Relatives</th>
+                    <th>Description</th>
+                    <th>Stage (if applicable)</th>
+                    <th>Sequencer</th>
+                    <th>Pathogenicity Code</th>
+                    <th>Evidence Codes</th>
+                    <th>Edit</th>
+                  </tr>
+                  <tr>
+                    <td>Sample ID link</td>
+                    <td>Age link</td>
+                    <td>Proband link</td>
+                    <td>Affected relatives link</td>
+                    <td>Description link</td>
+                    <td>Stage link</td>
+                    <td>Sequencer link</td>
+                    <td>Pathogenicity link</td>
+                    <td>Evidence codes link</td>
+                    <td><a href='edit_sample'><span class="glyphicon glyphicon-pencil"></span></span></a></td>
+                  </tr>
+                </table>
+            </div>
+
+            <div id="History" class="tabcontent">
+                <table style="width:100%">
+                  <tr>
+                    <th>Variant ID</th>
+                    <th>Change</th>
+                    <th>Time</th>
+                    <th>User</th>
+                  </tr>
+                  <tr>
+                    <td>Variant ID link</td>
+                    <td>Change link</td>
+                    <td>Time link</td>
+                    <td>User link</td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+        <script>
+        function clickHandle(evt, tabName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(tabName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+           
+        </body>
+</html> 
+>>>>>>> 8192110767f14041ff0861d9c3db9cdda1b31562

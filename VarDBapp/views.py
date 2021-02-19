@@ -1,7 +1,10 @@
 from django.shortcuts import render
 from django.utils import timezone
 from .models import *
+<<<<<<< HEAD
 from django.contrib.auth.decorators import login_required
+=======
+>>>>>>> 8192110767f14041ff0861d9c3db9cdda1b31562
 
 # Create your views here.
 def home_page(request):
