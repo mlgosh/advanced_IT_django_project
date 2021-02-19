@@ -1,7 +1,9 @@
 from django.shortcuts import render
 from django.utils import timezone
+from django.http import HttpResponseRedirect
 from .models import *
 from django.contrib.auth.decorators import login_required
+from .forms import *
 
 # Create your views here.
 def home_page(request):
@@ -14,13 +16,18 @@ def file_upload(request):
 @login_required
 def single_upload(request):
         if request.method == 'POST': # If the form has been submitted
-            Variant_description = Variant_description_form(request.POST, prefix = "description")
+            Variant_description = Variant_description_form(request.POST)
             if Variant_description.is_valid(): # All validation rules pass
                     description = Variant_description.save()
                     return HttpResponseRedirect('VarDBapp/home_page.html')
         else:
-            Variant_description = Variant_description_form(prefix = "description")
-        return render('VarDBapp/single_upload.html', {'Variant_description': Variant_description_form})
+            Variant_description = Variant_description_form()
+        
+        context = {
+            'Variant_description': Variant_description
+            }
+
+        return render(request, 'VarDBapp/single_upload.html', context)
 
 def browse_variants(request):
     return render(request, 'VarDBapp/browse_variants.html', {})
