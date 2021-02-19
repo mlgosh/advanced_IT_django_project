@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.utils import timezone
 from .models import *
+from .forms import *
 
 # Create your views here.
 def home_page(request):
@@ -10,19 +11,26 @@ def file_upload(request):
     return render(request, 'VarDBapp/file_upload.html', {})
 
 def single_upload(request):
-	return render(request, 'VarDBapp/single_upload.html', {})
+        if request.method == 'POST': # If the form has been submitted
+            Variant_description = Variant_description_form(request.POST, prefix = "description")
+            if Variant_description.is_valid(): # All validation rules pass
+                    description = Variant_description.save()
+                    return HttpResponseRedirect('VarDBapp/home_page.html')
+        else:
+            Variant_description = Variant_description_form(prefix = "description")
+        return render('VarDBapp/single_upload.html', {'Variant_description': Variant_description_form})
 
 def browse_variants(request):
-	return render(request, 'VarDBapp/browse_variants.html', {})
+    return render(request, 'VarDBapp/browse_variants.html', {})
 
 def search_result(request, search_term):
-	return render(request, 'VarDBapp/search_result.html', {})
+    return render(request, 'VarDBapp/search_result.html', {})
 
 def variant_browser(request):
-	return render(request, 'VarDBapp/variant_browser.html', {})
+    return render(request, 'VarDBapp/variant_browser.html', {})
 
 def edit_variant(request):
-	return render(request, 'VarDBapp/edit_variant.html', {})
+    return render(request, 'VarDBapp/edit_variant.html', {})
 
 def edit_sample(request):
-	return render(request, 'VarDBapp/edit_sample.html', {})
+    return render(request, 'VarDBapp/edit_sample.html', {})
