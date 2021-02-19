@@ -1,15 +1,17 @@
 from django.shortcuts import render
 from django.utils import timezone
 from .models import *
-from .forms import *
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 def home_page(request):
     return render(request, 'VarDBapp/home_page.html', {})
 
+@login_required
 def file_upload(request):
     return render(request, 'VarDBapp/file_upload.html', {})
 
+@login_required
 def single_upload(request):
         if request.method == 'POST': # If the form has been submitted
             Variant_description = Variant_description_form(request.POST, prefix = "description")
@@ -34,3 +36,4 @@ def edit_variant(request):
 
 def edit_sample(request):
     return render(request, 'VarDBapp/edit_sample.html', {})
+
